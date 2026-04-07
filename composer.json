@@ -1,5 +1,5 @@
 {
-    "name": "arkaitzgarro/elastic-apm-laravel",
+    "name": "vipmaa1/elastic-apm-laravel",
     "description": "Laravel APM agent for Elastic v2 intake API",
     "keywords": [
         "laravel",
@@ -11,18 +11,22 @@
         {
             "name": "Arkaitz Garro",
             "email": "arkaitz.garro@gmail.com"
+        },
+        {
+            "name": "Mahmoud Aswany",
+            "email": "vipmaa@gmail.com"
         }
     ],
     "require": {
         "php": "^8.2.0",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "illuminate/database": "^11.0|^12.0",
-        "illuminate/http": "^11.0|^12.0",
-        "illuminate/routing": "^11.0|^12.0",
-        "illuminate/support": "^11.0|^12.0",
-        "illuminate/contracts": "^11.0|^12.0",
+        "http-interop/http-factory-guzzle": "^1.1.1",
+        "illuminate/database": "^11.0|^12.0|^13.0",
+        "illuminate/http": "^11.0|^12.0|^13.0",
+        "illuminate/routing": "^11.0|^12.0|^13.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/contracts": "^11.0|^12.0|^13.0",
         "jasny/persist-sql-query": "^2.0",
-        "nipwaayoni/elastic-apm-php-agent": "^8.0"
+        "nipwaayoni/elastic-apm-php-agent": "^8.4"
     },
     "require-dev": {
         "codeception/codeception": "^5",
